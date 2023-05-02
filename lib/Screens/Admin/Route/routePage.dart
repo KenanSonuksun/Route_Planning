@@ -15,7 +15,7 @@ class _RoutePageState extends State<RoutePage> {
   GoogleMapController mapController; //contrller for Google map
   PolylinePoints polylinePoints = PolylinePoints();
 
-  String googleAPiKey = "AIzaSyClqzhv58g0Ov_9rrmXiNNABQS2dKx9rsE";
+  String googleAPiKey = "Your Api Key";
 
   Set<Marker> markers = Set(); //markers for google map
   Map<PolylineId, Polyline> polylines = {}; //polylines to show direction
